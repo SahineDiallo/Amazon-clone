@@ -27,6 +27,7 @@
 
 .login__container > h1 {
     font-weight: 500;
+    margin-bottom: 10px;
 }
 .login__container form > h5 {
     margin-bottom: 5px;

@@ -19,7 +19,7 @@ function Header() {
         </div>
 
         <div className="header__navItems">
-            <Link to="/login">
+            <Link to="/login" style={{ textDecoration: 'none' }}>
             <div className="header__options">
                 <span className="header__optionLineOne">Hello</span>
                 <span className="header__optionLineTwo">Sign In</span>
@@ -34,7 +34,7 @@ function Header() {
                 <span className="header__optionLineTwo">Prime</span>
             </div>
         </div>
-        <Link to="/checkout">
+        <Link to="/checkout" style={{ textDecoration: 'none' }}>
         <div className="header__optionBasket">
             <ShoppingCartIcon className="basketIcon" />            
             <span className="basketCount header__optionLineTwo ">{basket.length}</span>
