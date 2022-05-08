@@ -1,0 +1,28 @@
+.payment {
+    background-color: white;
+}
+.payment__section {
+    display:flex;
+    border-bottom: 2px solid #f3f3f3;
+    padding: 20px;
+    align-items: flex-start;
+}
+.payment h1 {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(184, 184, 184);
+    font-weight: 400;
+    letter-spacing: 0.03rem;
+}
+.payment__title {
+    flex: 0.2;
+}
+.payment__address, .payment__items, .payment__details {
+    flex: 0.8;
+}
+.payment h1 a {
+    text-decoration: none;
+}
+.StripeElement {
+    width: 100%;
+}
